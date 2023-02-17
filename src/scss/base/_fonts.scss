@@ -1,0 +1,14 @@
+$font-path: "../fonts";
+
+@font-face {
+    $font-name: "Poppins-Medium";
+    font-family: $font-family-custom;
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+    src: url("#{$font-path}/#{$font-name}.eot");
+    src: url("#{$font-path}/#{$font-name}.eot?#iefix") format("embedded-opentype"),
+        url("#{$font-path}/#{$font-name}.woff2") format("woff2"),
+        url("#{$font-path}/#{$font-name}.woff") format("woff"),
+        url("#{$font-path}/#{$font-name}.ttf") format("truetype"),
+}
